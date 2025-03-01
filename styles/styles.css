@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "PixelifySans";
+    src: url("../fonts/PixelizerBold.ttf");
+}
+
+body {
+    background-color: #1d1b1b;
+    /*background: linear-gradient(to bottom right, #ff7e5f, #feb47b);*/
+    margin: 0;
+    padding: 0;
+}
+
+.head_text_layout {
+    margin: auto;
+    width: fit-content;
+}
+
+.head_text {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    margin: 5px 0;
+    font-family: "PixelifySans";
+    font-size: 44px;
+}
+
+.head_text img {
+    width: 0.5em;
+    /* Icon size is relative to the font-size of the text */
+    height: 0.5em;
+    margin-right: 15px;
+}
+
+.under_head {
+    border: 1px solid #fff;
+    margin: auto;
+    padding: 0;
+    width: 98%;
+}
+
+.main_content {
+    color: white;
+    font-family: "PixelifySans";
+    font-size: 25px;
+    margin: auto;
+    width: 80%
+}
+
+p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+h2 {
+    font-size: 41px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+h3 {
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+a {
+    color: #4ca7ff;
+}
+
+.spacer {
+    height: 31px;
+}
+
+.foot_text_layout {
+    margin-top: 53px;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: rgb(81, 75, 75);
+    
+    font-family: "PixelifySans";
+    color: white;
+    font-size: 22px;
+    text-align: center;
+
+}
