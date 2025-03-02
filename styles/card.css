@@ -1,5 +1,6 @@
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   flex-direction: row;
   flex-wrap: wrap;
   /*gap: 15px;*/
@@ -37,8 +38,6 @@
   cursor: pointer;
   transition: 400ms;
   margin: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 
